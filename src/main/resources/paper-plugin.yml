@@ -1,0 +1,12 @@
+name: MarkdownChat
+version: '${project.version}'
+main: icu.carolinainthe.markdownchat.MarkdownChat
+api-version: '1.20'
+folia-supported: true
+authors: [carolina_slaying]
+description: A plugin that implements markdown-style chat formatting in Minecraft using Phoenix616's MineDown library.
+website: https://carolinainthe.icu
+permissions:
+  markdownchat.use:
+    description: "This permission grants the user the ability to use markdown styling in chat"
+    default: not op
